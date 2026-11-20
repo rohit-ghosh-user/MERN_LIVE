@@ -1,0 +1,21 @@
+ *{
+    font-size: 20px;
+ }
+ .Todo{
+    margin: 10px;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.kgRow{
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.button{
+    min-width: 90px;
+} 
+
+.saveButton{
+    margin-left: -5px;
+}

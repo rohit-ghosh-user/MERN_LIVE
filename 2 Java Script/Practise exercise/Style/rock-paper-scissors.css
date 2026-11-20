@@ -1,0 +1,29 @@
+.choice-button{
+    padding: 8px 15px;
+    background-color: #4caf4f;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.reset-button{
+     padding: 8px 15px;
+    background-color: #9e2339;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.reset-button:hover{
+    background-color: rgb(186, 51, 78);
+}
+.reset-button:active{
+    background-color: chocolate;
+}
+.choice-button:hover{
+    background-color: #45a049;
+}
+
+.choice-button:active{
+    background-color: chocolate;
+}

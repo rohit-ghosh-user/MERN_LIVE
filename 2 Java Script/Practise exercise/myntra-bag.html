@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Myntra Bag</title>
+    <style>
+       #bag{
+        background-color: #8dee92;
+        padding: 10px 14px;
+        border-radius: 30px;
+        border: 0;
+       } 
+       #wishlist{
+        padding: 9px 44px;
+        border-radius: 13px;
+        border: 1;
+       }
+       #saleItem{
+        background-color: #92eb91;
+        padding: 10px 14px;
+        border-radius: 30px;
+        border: 0;
+       }
+    </style>
+</head>
+<body>
+    <button id="bag" onclick="
+        a++;
+         document.getElementById('item').innerHTML = 'Your Bag has '+a+' items';
+        ">Added to bag</button>
+    <button id = "wishlist" onclick="
+    a--;
+     document.getElementById('item').innerHTML = 'Your Bag has '+a+' items';
+    ">Added to wishilist</button>
+    <button id="saleItem" onclick="
+    a += 2
+     document.getElementById('item').innerHTML = 'Your Bag has '+a+' items';
+    ">Added 1+1 Sale item</button>
+    <h1 id="item">Your Bag has 0 items</h1>
+</body>
+    <script>
+        let a = 0; 
+
+    </script>
+</html>

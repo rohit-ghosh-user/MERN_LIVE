@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Item</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #container{
+            height: 600px;
+            width: 600px;
+            border: solid cyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 200px;
+            width: 250px;
+            background-color: aquamarine;
+            margin: 5px;
+            border: solid;
+        }
+        #box2{
+            flex-shrink: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1" class="box">Box 1</div>
+        <div id="box2" class="box">Box 2</div>
+        <div id="box3" class="box">Box 3</div>
+        <div id="box3" class="box">Box 4</div>
+    </div>
+</body>
+</html>

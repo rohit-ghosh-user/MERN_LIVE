@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #container{
+            height: 600px;
+            width: 600px;
+            border: solid cyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 75px;
+            width: 75px;
+            background-color: aquamarine;
+            margin: 5px;
+            border: solid;
+        }
+        #box1{
+            background-color: brown;
+            order: 4;
+        }
+        #box2{
+            background-color: rgb(248, 239, 3);
+            order: 1;
+        }
+        #box3{
+            background-color: blue;
+            order: 2;
+        }
+        #box4{
+            background-color: chartreuse;
+            order: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1" class="box">Box 1</div>
+        <div id="box2" class="box">Box 2</div>
+        <div id="box3" class="box">Box 3</div>
+        <div id="box4" class="box">Box 4</div>
+    </div>
+</body>
+</html>

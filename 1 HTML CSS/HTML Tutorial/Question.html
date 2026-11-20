@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="/action">
+             <div>
+            <h1>Register Form</h1>
+            <input type="text" placeholder="First Nmae" name="F.N">
+            <input type="text" placeholder="Last Name" name="L.N">
+        </div>
+        <div>
+            <label for="gender"> Please select your gender</label>
+            <select id="gender" name="gender">
+                <option value="M" selected>Male</option>
+                <option value="F">Female</option>
+            </select>
+        </div>
+        <div>
+            Do you agree all terms and condition?
+            <input type="checkbox" name="check" id="check">
+            <label for="check">Yes I agree</label>,
+        </div>
+        <button type="submit">Register</button>
+        </form>
+        <br>
+        <hr>
+        <!-- Table -->
+         <table border="black">
+            <caption>Student information</caption>
+                        <tr>
+                            <th rowspan="6">Info</th>
+                            <th rowspan="2">Name</th>
+                            <th colspan="2">Address</th>
+                        </tr>
+                        <tr>
+                            <th>City</th>
+                            <th>House</th>
+                        </tr>         
+                        <tr>
+                            <td>A</td>
+                            <td>Delhi</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>B</td>
+                            <td>Mumbai</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>Kolkata</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>Pune</td>
+                            <td>4</td>
+                        </tr>           
+         </table>
+         <br>
+         <hr>
+         <!-- combination work of form -->
+          <form action="/action">
+             <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="identity">
+             </div>
+             <div>
+                SEX:
+                <input type="radio" name="sex" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="sex" id="female" value="female">
+                <label for="Female">Female</label>
+             </div>
+             <div>
+                <label for="country">Country</label>
+                <select id="country" name="count">
+                    <option>Choose Your Country</option>
+                    <option value="ind">India</option>
+                    <option value="unit">America</option>
+                    <option value="russ">Russiya</option>
+                </select>
+             </div>
+             <div>
+                <label for="message">Message:</label>
+                <br>
+                <textarea name="text" id="message" placeholder="write heare"></textarea>
+             </div>
+             <div>
+                <input type="checkbox" name="subscribe" id="check">
+                 <label for="check">Subscribe?</label>
+             </div>
+             <button type="submit">Submit</button>
+          </form>
+           <br>
+            <hr>
+              <!--Feedback form  -->
+               <form action="/action">
+                  <div>
+                     <label for="identity">Name</label>
+                     <input type="text" id="identity" name="identity" placeholder="write your name">
+                  </div>
+                  <div>
+                    <label for="identity">Email</label>
+                    <input type="email" id="identity" name="email" placeholder="write your email">
+                  </div>
+                  <div>
+                    <label for="text">Message:</label>
+                    <br>
+                    <textarea id="text" name="message"></textarea>
+                  </div>
+                  <div>
+                    Rate of us our of 5:
+                    <br>
+                    <label for="1">1</label>
+                    <input type="radio" id="1" name="ratting" value="1">
+                    <br>
+                    <label for="2">2</label>
+                    <input type="radio" id="2" name="ratting"  value="2">
+                    <br>
+                    <label for="3">3</label>
+                    <input type="radio" id="3" name="ratting" value="3">
+                    <br>
+                    <label for="4">4</label>
+                    <input type="radio" id="4" name="ratting" value="4">
+                    <br>
+                    <label for="5">5</label>
+                    <input type="radio" id="5" name="ratting" value="5">
+                  </div>
+                  <button type="submit">Send Your Message</button>
+               </form>   
+    </body>
+</html>

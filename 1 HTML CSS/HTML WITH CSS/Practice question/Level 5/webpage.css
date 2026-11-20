@@ -1,0 +1,47 @@
+*{
+    margin: 0; padding: 0;
+}
+nav{
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+}
+header{
+    background-color: cyan;
+}
+#div1{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    margin: 5px;
+    display: inline-block;
+    border: solid 5px;
+}
+#box3{
+    position: absolute;
+    left: 20px;
+    z-index: 2;
+}
+#box4{
+    position: fixed;
+    left: 50px;
+}
+#container{
+    border: coral solid 5px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: cadetblue;
+}
+body{
+    background-color: bisque;
+}

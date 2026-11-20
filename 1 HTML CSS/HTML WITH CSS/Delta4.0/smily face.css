@@ -1,0 +1,42 @@
+
+#fixed{
+    height: 200px;
+    width: 200px;
+    background-color:goldenrod;
+     margin: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px black;
+    
+}
+
+.relative{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 50%;
+    
+}
+#left_eye{
+    position: absolute;
+    left: 57px;
+    
+    top: 63px;
+    
+}
+#right_eye{
+    position: absolute;
+    left: 150px;
+    
+    top: 63px;
+}
+#mouth{
+    height: 20px;
+    width: 100px;
+    background-color: rgb(181, 100, 1);
+    position: absolute;
+    left: 78px;
+    top: 151px;
+    border-radius: 0 0 20px 20px;
+
+}
